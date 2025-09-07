@@ -1,0 +1,16 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "location": { "value": "westeurope" },
+    "environment": { "value": "prod" },
+    "owner": { "value": "yazen" },
+    "costCenter": { "value": "CC001" },
+    "storageAccountName": { "value": "lab2storageaccprod" },
+    "appServicePlanSku": { "value": "S1" },
+    "appServicePlanName": { "value": "asp-prod" },
+    "webAppName": { "value": "lab2adminstcloudprod" },
+    "keyVaultName": { "value": "kvyazen123prod" },
+    "secretValue": { "value": "MySecret789" }
+  }
+}
